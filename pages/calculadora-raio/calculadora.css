@@ -22,25 +22,38 @@ body {
     gap: 15px;
 }
 
-nav {
+main {
     background: #334155;
-    width: fit-content;
-    padding: 30px;
-    border-radius: 15px;
+    padding: 20px;
 }
 
-ul, li {
-    list-style: none;
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-a:hover {
+ input {
+    width: 100%;
+    padding: 5px; 
+    box-sizing: border-box; 
+ }
+
+ button {
+    width: 100%; 
+    padding: 5px; 
+    background-color: #030712;
     color: #d1d5db;
-    text-decoration: none;
     font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+form {
+    margin-bottom: 16px;
 }
 
-a {
-    color: #030712;
-    text-decoration: none;
-    font-weight: bold;
+button:hover {
+    background-color: #d1d5db;
 }
